@@ -1,0 +1,6 @@
+coverage
+dist
+lib
+CHANGELOG.md
+/pnpm-*.yaml
+!/.*.cjs
