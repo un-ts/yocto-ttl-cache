@@ -1,5 +1,23 @@
-import echo from 'lib-boilerplate'
+import { TTLCache } from 'yocto-ttl-cache'
 
-test('it should just work', () => {
-  expect(echo()).toBe('Hello World!')
+const delay = (delay: number) =>
+  new Promise<void>(resolve => setTimeout(resolve, delay))
+
+test('basic usage', async () => {
+  const cache = new TTLCache<string, string>()
+  expect(cache.get('key')).toBe(undefined)
+  cache.set('key', 'value')
+  expect(cache.get('key')).toBe('value')
+  expect(cache.get('key')).toBe('value')
+  await delay(3 * 500)
+  expect(cache.get('key')).toBe(undefined)
+})
+
+test('get with setter', async () => {
+  const cache = new TTLCache<string, string>()
+  expect(cache.get('key')).toBe(undefined)
+  expect(cache.get('key', () => 'value')).toBe('value')
+  expect(cache.get('key', () => 'unused')).toBe('value')
+  await delay(3 * 500)
+  expect(cache.get('key')).toBe(undefined)
 })

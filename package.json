@@ -1,9 +1,9 @@
 {
-  "name": "lib-boilerplate",
-  "version": "0.0.2",
+  "name": "yocto-ttl-cache",
+  "version": "0.0.0",
   "type": "module",
-  "description": "A simple library boilerplate.",
-  "repository": "git+https://github.com/rx-ts/lib-boilerplate.git",
+  "description": "The smallest and fastest TTL cache implementation in JavaScript",
+  "repository": "git+https://github.com/rx-ts/yocto-ttl-cache.git",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "donate": {
     "recipients": [
@@ -89,7 +89,7 @@
     "sirv-cli": "^2.0.2",
     "size-limit": "^7.0.8",
     "ts-jest": "^28.0.5",
-    "type-coverage": "^2.21.2",
+    "type-coverage": "^2.22.0",
     "typescript": "^4.7.4"
   },
   "publishConfig": {
@@ -105,7 +105,7 @@
   "size-limit": [
     {
       "path": "lib/index.js",
-      "limit": "180b"
+      "limit": "200b"
     }
   ],
   "typeCoverage": {

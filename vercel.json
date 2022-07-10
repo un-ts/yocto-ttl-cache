@@ -1,7 +1,9 @@
 {
   "version": 2,
   "alias": [
-    "lib-boilerplate.vercel.app"
+    "ttlcache.vercel.app",
+    "ttl-cache.vercel.app",
+    "yocto-ttl-cache.vercel.app"
   ],
   "github": {
     "silent": true

@@ -22,7 +22,7 @@ specifiers:
   size-limit: ^7.0.8
   ts-jest: ^28.0.5
   tslib: ^2.4.0
-  type-coverage: ^2.21.2
+  type-coverage: ^2.22.0
   typescript: ^4.7.4
 
 dependencies:
@@ -49,7 +49,7 @@ devDependencies:
   sirv-cli: 2.0.2
   size-limit: 7.0.8
   ts-jest: 28.0.5_k2r4spb5olbhsdcly5ywd2jjkq
-  type-coverage: 2.21.2_typescript@4.7.4
+  type-coverage: 2.22.0_typescript@4.7.4
   typescript: 4.7.4
 
 packages:
@@ -16948,8 +16948,8 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core/2.21.2_typescript@4.7.4:
-    resolution: {integrity: sha512-GM8lwpZAyurbMjg7BXHYrf5oYXQ9de140iNCKjwtWWUv2xC42oRsUsB7hpfJzFYbd9y8sXRIyDd8JAafYJPjcQ==}
+  /type-coverage-core/2.22.0_typescript@4.7.4:
+    resolution: {integrity: sha512-j2wjwOTeKc/G6RUrgVsBYuDbum2GnJ/pCQ6/DlMvgs1QBXEqZxI9N6okUSFc14veQBzr01gG0cwmdyagKdf3Sg==}
     peerDependencies:
       typescript: 2 || 3 || 4
     dependencies:
@@ -16961,12 +16961,12 @@ packages:
       typescript: 4.7.4
     dev: true
 
-  /type-coverage/2.21.2_typescript@4.7.4:
-    resolution: {integrity: sha512-lEoYaLQuonDnJDB3FSRt4iiKPpgsemdUK2d9sYD0Pxv4Za/G9U6RVj2DBDZQoSmPzuIcjdUczUc2RswMQx6IlQ==}
+  /type-coverage/2.22.0_typescript@4.7.4:
+    resolution: {integrity: sha512-wgM1yH4J5gAszojftiozxb6HSOvoCqYQLmIS5Ybo4HpBtr9BrVgK5duj4e3tkc28Xg6VA2WPB8GFC+oJw352oQ==}
     hasBin: true
     dependencies:
       minimist: 1.2.6
-      type-coverage-core: 2.21.2_typescript@4.7.4
+      type-coverage-core: 2.22.0_typescript@4.7.4
     transitivePeerDependencies:
       - typescript
     dev: true
