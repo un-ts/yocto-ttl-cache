@@ -1,5 +1,5 @@
 {
-  "name": "lib-boilerplate-docs",
+  "name": "yocto-ttl-cache-docs",
   "type": "commonjs",
-  "description": "A simple library boilerplate."
+  "description": "The smallest and fastest TTL cache implementation in JavaScript"
 }
