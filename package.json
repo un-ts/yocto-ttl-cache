@@ -1,6 +1,6 @@
 {
   "name": "yocto-ttl-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "The smallest and fastest TTL cache implementation in JavaScript",
   "repository": "git+https://github.com/rx-ts/yocto-ttl-cache.git",
