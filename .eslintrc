@@ -7,6 +7,12 @@
       "rules": {
         "react/react-in-jsx-scope": "off"
       }
+    },
+    {
+      "files": ".github/*.yml",
+      "rules": {
+        "unicorn/filename-case": "off"
+      }
     }
   ]
 }

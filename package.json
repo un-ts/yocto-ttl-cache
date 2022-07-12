@@ -54,6 +54,7 @@
     "!**/*.tsbuildinfo"
   ],
   "scripts": {
+    "benchmark": "NO_COLOR=1 node benchmark > benchmark/benchmark.txt",
     "build": "run-p build:*",
     "build:r": "r -f cjs",
     "build:ts": "tsc -p src",
@@ -79,6 +80,7 @@
     "@1stg/lib-config": "^8.1.1",
     "@changesets/changelog-github": "^0.4.5",
     "@changesets/cli": "^2.23.1",
+    "@isaacs/ttlcache": "^1.1.0",
     "@pkgr/webpack": "^3.1.2",
     "@pkgr/webpack-mdx": "^2.0.3",
     "@size-limit/preset-small-lib": "^7.0.8",
@@ -90,6 +92,7 @@
     "@types/web": "^0.0.69",
     "github-markdown-css": "^5.1.0",
     "jest-environment-jsdom": "^28.1.2",
+    "mitata": "^0.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
