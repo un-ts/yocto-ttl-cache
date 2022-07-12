@@ -1,4 +1,4 @@
-const perf = typeof performance === 'undefined' ? Date : performance
+import { perf } from './perf.js'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any -- it's fine
 export class TTLCache<K extends keyof any, V = unknown> {
