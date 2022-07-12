@@ -1,13 +1,18 @@
 import { Config } from '@jest/types'
 
-const config: Config.InitialOptions = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  collectCoverage: true,
-  extensionsToTreatAsEsm: ['.ts'],
+const commonProjectConfig: Config.InitialProjectOptions = {
+  transform: {
+    '^.+\\.tsx?$': 'ts-jest',
+  },
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
+}
+
+const config: Config.InitialOptions = {
+  preset: 'ts-jest',
+  collectCoverage: true,
+  extensionsToTreatAsEsm: ['.ts'],
   globals: {
     'ts-jest': {
       useESM: true,
@@ -16,6 +21,22 @@ const config: Config.InitialOptions = {
       },
     },
   },
+  projects: [
+    {
+      displayName: 'node',
+      testEnvironment: 'node',
+      ...commonProjectConfig,
+      moduleNameMapper: {
+        './perf': '<rootDir>/src/node.ts',
+        ...commonProjectConfig.moduleNameMapper,
+      },
+    },
+    {
+      displayName: 'browser',
+      testEnvironment: 'jsdom',
+      ...commonProjectConfig,
+    },
+  ],
 }
 
 export default config
