@@ -2,6 +2,6 @@ coverage
 dist
 lib
 CHANGELOG.md
-/pnpm-*.yaml
+/pnpm-lock.yaml
 !/.github
 !/.*.cjs

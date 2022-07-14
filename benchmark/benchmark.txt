@@ -3,9 +3,9 @@ runtime: node v16.15.1 (arm64-darwin)
 
 benchmark             time (avg)             (min … max)       p75       p99      p995
 -------------------------------------------------------- -----------------------------
-yocto-ttl-cache     34.7 µs/iter  (30.92 µs … 650.58 µs)  33.58 µs  84.79 µs  95.29 µs
-@isaacs/ttlcache  114.71 µs/iter    (99.75 µs … 3.53 ms) 108.71 µs 289.75 µs 714.38 µs
+yocto-ttl-cache    34.68 µs/iter  (30.88 µs … 720.08 µs)  33.71 µs  85.04 µs  93.63 µs
+@isaacs/ttlcache  115.12 µs/iter    (99.42 µs … 3.31 ms) 109.21 µs 288.21 µs 725.71 µs
 
 summary
   yocto-ttl-cache
-   3.31x faster than @isaacs/ttlcache
+   3.32x faster than @isaacs/ttlcache
