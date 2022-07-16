@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.1.2
+
+### Patch Changes
+
+- [#8](https://github.com/un-ts/yocto-ttl-cache/pull/8) [`fd8b42e`](https://github.com/un-ts/yocto-ttl-cache/commit/fd8b42eb892f07df6cb56f4640bc39d6852c6cea) Thanks [@JounQin](https://github.com/JounQin)! - fix: remove unused tslib dep
+
 ## 0.1.1
 
 ### Patch Changes
