@@ -25,12 +25,8 @@ specifiers:
   sirv-cli: ^2.0.2
   size-limit: ^7.0.8
   ts-jest: ^28.0.6
-  tslib: ^2.4.0
   type-coverage: ^2.22.0
   typescript: ^4.7.4
-
-dependencies:
-  tslib: 2.4.0
 
 devDependencies:
   '@1stg/app-config': 6.1.3_7bvfsiswca62lqrvabnicctuea
@@ -17247,6 +17243,7 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: true
 
   /tsutils/3.21.0_typescript@4.7.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
