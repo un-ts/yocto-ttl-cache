@@ -24,7 +24,7 @@ specifiers:
   react-router-dom: ^6.3.0
   sirv-cli: ^2.0.2
   size-limit: ^7.0.8
-  ts-jest: ^28.0.6
+  ts-jest: ^28.0.7
   type-coverage: ^2.22.0
   typescript: ^4.7.4
 
@@ -52,7 +52,7 @@ devDependencies:
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   sirv-cli: 2.0.2
   size-limit: 7.0.8
-  ts-jest: 28.0.6_nei5lapzzuok4teycxxbgj3oyq
+  ts-jest: 28.0.7_zi4jarvqtmmb6fzv4flzw2vjfu
   type-coverage: 2.22.0_typescript@4.7.4
   typescript: 4.7.4
 
@@ -17155,8 +17155,8 @@ packages:
     resolution: {integrity: sha512-AqTiAOLcj85xS7vQ8QkAV41hPDIJ71XJB4RCUrzo/1GM2CQwhkJGaf9Hgr7BOugMRpgGUrqRg/DrBDl4H40+8g==}
     dev: true
 
-  /ts-jest/28.0.6_nei5lapzzuok4teycxxbgj3oyq:
-    resolution: {integrity: sha512-yLAWoaSJ6c9o+IT7+nyutp5uvwGzhMYb/LD5WEQAi2tBq4ZSAPay4Lf69pP/IU+GFYg87pdg5eADSzuNAFSK4g==}
+  /ts-jest/28.0.7_zi4jarvqtmmb6fzv4flzw2vjfu:
+    resolution: {integrity: sha512-wWXCSmTwBVmdvWrOpYhal79bDpioDy4rTT+0vyUnE3ZzM7LOAAGG9NXwzkEL/a516rQEgnMmS/WKP9jBPCVJyA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -17169,13 +17169,14 @@ packages:
     peerDependenciesMeta:
       '@babel/core':
         optional: true
+      '@jest/types':
+        optional: true
       babel-jest:
         optional: true
       esbuild:
         optional: true
     dependencies:
       '@babel/core': 7.18.6
-      '@jest/types': 28.1.3
       bs-logger: 0.2.6
       esbuild: 0.14.48
       fast-json-stable-stringify: 2.1.0
