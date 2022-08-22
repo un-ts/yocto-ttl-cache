@@ -1,1 +1,6 @@
+.type-coverage
+.vercel
+coverage
+dist
+lib
 /pnpm-lock.yaml
