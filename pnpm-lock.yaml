@@ -9,7 +9,7 @@ specifiers:
   '@pkgr/webpack': ^3.3.0
   '@pkgr/webpack-mdx': ^2.1.0
   '@size-limit/preset-small-lib': ^8.0.1
-  '@types/jest': ^28.1.7
+  '@types/jest': ^28.1.8
   '@types/mdx': ^2.0.2
   '@types/node': ^18.7.9
   '@types/react': ^18.0.17
@@ -37,7 +37,7 @@ devDependencies:
   '@pkgr/webpack': 3.3.0_i6n7bcxyv2j7x47tzgw2jjgq5q
   '@pkgr/webpack-mdx': 2.1.0_ec3md4kbqlr3y4fl4j4fxmxpg4
   '@size-limit/preset-small-lib': 8.0.1_size-limit@8.0.1
-  '@types/jest': 28.1.7
+  '@types/jest': 28.1.8
   '@types/mdx': 2.0.2
   '@types/node': 18.7.9
   '@types/react': 18.0.17
@@ -4240,8 +4240,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/28.1.7:
-    resolution: {integrity: sha512-acDN4VHD40V24tgu0iC44jchXavRNVFXQ/E6Z5XNsswgoSO/4NgsXoEYmPUGookKldlZQyIpmrEXsHI9cA3ZTA==}
+  /@types/jest/28.1.8:
+    resolution: {integrity: sha512-8TJkV++s7B6XqnDrzR1m/TT0A0h948Pnl/097veySPN67VRAgQ4gZ7n2KfJo2rVq6njQjdxU3GCCyDvAeuHoiw==}
     dependencies:
       expect: 28.1.3
       pretty-format: 28.1.3
