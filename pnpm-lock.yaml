@@ -5,7 +5,7 @@ specifiers:
   '@1stg/lib-config': ^10.1.1
   '@changesets/changelog-github': ^0.4.8
   '@changesets/cli': ^2.24.4
-  '@isaacs/ttlcache': ^1.2.1
+  '@isaacs/ttlcache': ^1.4.1
   '@pkgr/webpack': ^3.3.0
   '@pkgr/webpack-mdx': ^2.1.0
   '@size-limit/preset-small-lib': ^8.0.1
@@ -33,7 +33,7 @@ devDependencies:
   '@1stg/lib-config': 10.1.1_jyijk3qosa4xcg3qygnqqvgole
   '@changesets/changelog-github': 0.4.8
   '@changesets/cli': 2.24.4
-  '@isaacs/ttlcache': 1.2.1
+  '@isaacs/ttlcache': 1.4.1
   '@pkgr/webpack': 3.3.0_i6n7bcxyv2j7x47tzgw2jjgq5q
   '@pkgr/webpack-mdx': 2.1.0_ec3md4kbqlr3y4fl4j4fxmxpg4
   '@size-limit/preset-small-lib': 8.0.1_size-limit@8.0.1
@@ -2865,8 +2865,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@isaacs/ttlcache/1.2.1:
-    resolution: {integrity: sha512-6hUKl0TcmeenJXitePBS/vPn1l/C8+sO4vvSmRh/hW4CeBm+QselPM6AyiM7WON6jApouCJGUfHYbaNObcMFrQ==}
+  /@isaacs/ttlcache/1.4.1:
+    resolution: {integrity: sha512-RQgQ4uQ+pLbqXfOmieB91ejmLwvSgv9nLx6sT6sD83s7umBypgg+OIBOBbEUiJXrfpnp9j0mRhYYdzp9uqq3lA==}
     engines: {node: '>=12'}
     dev: true
 
