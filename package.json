@@ -78,7 +78,7 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.24.4",
     "@isaacs/ttlcache": "^1.2.1",
-    "@pkgr/webpack": "^3.3.0",
+    "@pkgr/webpack": "^3.4.0",
     "@pkgr/webpack-mdx": "^2.1.0",
     "@size-limit/preset-small-lib": "^8.0.1",
     "@types/jest": "^28.1.8",
