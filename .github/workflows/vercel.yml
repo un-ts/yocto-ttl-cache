@@ -10,12 +10,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Setup Node.js 16
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
-          node-version: 16
+          node-version: 24
 
       - name: Check Branch
         id: branch
@@ -25,7 +25,7 @@ jobs:
           echo "::set-output name=comment::false"
 
       - name: Deploy
-        uses: amondnet/vercel-action@v25
+        uses: amondnet/vercel-action@de09aeac2ace6599ec9b11ef87558759a496bac4 # v42
         with:
           vercel-args: ${{ steps.branch.outputs.args }}
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
